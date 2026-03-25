@@ -11,11 +11,11 @@ In simpler words: a wireless FPV simulator adapter. No drivers, low-latency,  pl
 0. I suggest ordering the PCB (gerber_v1.0.zip) from a service like JLCPCB or PCBWay, it's cheap af
 1. Flash the firmware (USBLRS_v1_0.ino) to the XIAO using Arduino IDE (many tutorials online)
 2. Solder straight to the PCB, or wire it up according to this:
-    **XIAO > Receiver**
-    5V > 5V
-    GND > GND
-    D6 > RX
-    D7 > TX
+- **XIAO > Receiver**
+- 5V > 5V
+- GND > GND
+- D6 > RX
+- D7 > TX
 3. Plug in and verify with https://hardwaretester.com/gamepad
 4. Enjoy
 
